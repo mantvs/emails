@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-12 02:07:10.322320",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "cpanel_hostname",
+  "cpanel_token",
+  "column_break_pclt",
+  "cpanel_username",
+  "cpanel_domain"
+ ],
+ "fields": [
+  {
+   "fieldname": "cpanel_hostname",
+   "fieldtype": "Data",
+   "label": "cPanel Hostname"
+  },
+  {
+   "fieldname": "cpanel_username",
+   "fieldtype": "Data",
+   "label": "cPanel Username"
+  },
+  {
+   "fieldname": "cpanel_token",
+   "fieldtype": "Data",
+   "label": "cPanel Token"
+  },
+  {
+   "fieldname": "column_break_pclt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cpanel_domain",
+   "fieldtype": "Data",
+   "label": "cPanel Domain"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-01-12 02:09:31.138402",
+ "modified_by": "Administrator",
+ "module": "Emails",
+ "name": "Email Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

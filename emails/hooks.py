@@ -5,6 +5,11 @@ app_description = "Console para gerenciar contas de e-mails"
 app_email = "myeli.antonio@mantoti.com.br"
 app_license = "mit"
 
+website_context = {
+    "favicon": "/assets/emails/icons/favicon.ico"
+}
+
+
 # Apps
 # ------------------
 
@@ -25,7 +30,7 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/emails/css/emails.css"
+app_include_css = "/assets/emails/css/emails.css"
 # app_include_js = "/assets/emails/js/emails.js"
 
 # include js, css files in header of web template
