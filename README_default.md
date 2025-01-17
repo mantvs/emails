@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### Emails
 
 Console para gerenciar contas de e-mails
@@ -39,3 +40,7 @@ This app can use GitHub Actions for CI. The following workflows are configured:
 ### License
 
 mit
+=======
+# app-emails
+Aplicativo web para gerenciar emails de domínios hospedados em provedor de hospedagem.
+>>>>>>> 81f99cc3329a76ae75d0902490c4448a226e6615
